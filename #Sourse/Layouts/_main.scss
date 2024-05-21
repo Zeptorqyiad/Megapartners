@@ -14,7 +14,7 @@
 	margin-top: 18.51%;
 }
 .block-text__title {
-	font-family: Lexend;
+	font-family: $ff1;
 	font-size: 96px;
 	line-height: 96px;
 	text-transform: uppercase;
@@ -27,7 +27,6 @@
 }
 .block-text__text {
 	color: rgba(255, 255, 255, 0.6);
-	font-family: Lexend;
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 32px;
@@ -35,7 +34,6 @@
 }
 .main__btn {
 	color: hsl(0, 0%, 100%);
-	font-family: Lexend;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 32px;
@@ -79,7 +77,6 @@
 }
 .blog__title {
 	color: hsl(0, 0%, 100%);
-	font-family: Lexend;
 	font-size: 40px;
 	font-weight: 400;
 	line-height: 40px;
@@ -103,6 +100,16 @@
 	height: 567px;
 	overflow-y: scroll;
 }
+.acticle__wrapper:-webkit-scrollbar {
+	width: 8px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.12);
+}
+.acticle__wrapper:-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-clip: content-box;
+	background: #478bf9;
+}
 .article__block {
 	border-radius: 196px;
 	background: #1e1231;
@@ -117,15 +124,13 @@
 }
 .article__block *:first-child {
 	color: rgb(255, 255, 255);
-	font-family: Lexend;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 28px;
-	font-size: calc(14.5px + 0.487804878vw);
 }
 .article__block *:last-child {
 	color: rgba(255, 255, 255, 0.6);
-	font-family: Futura PT;
+	font-family: $ff2;
 	font-size: 14px;
 	font-weight: 450;
 	line-height: 16px;

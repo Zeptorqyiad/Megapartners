@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
 
-.lexend-regular {
-	font-family: "Lexend", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
+@font-face {
+	font-family: "Lexend";
+	src: url(../../assets/fonts/Lexend-Regular.ttf);
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-weight: 500;
 	font-style: normal;
+	src: url(../../assets/fonts/FuturaPT-Book.ttf);
 }

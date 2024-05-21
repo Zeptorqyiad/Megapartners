@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, h6 {
   --main-blue-text: #478bf9;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 [class*=__container] {
   max-width: 1670px;
   margin: 0 auto;
@@ -93,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Lexend sans-serif;
+  font-family: Lexend;
   font-size: 16px;
   background-color: var(--bg-color);
   color: #ffffff;
@@ -324,6 +328,10 @@ body {
   --main-blue-text: #478bf9;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 [class*=__container] {
   max-width: 1670px;
   margin: 0 auto;
@@ -338,7 +346,7 @@ body {
 }
 
 body {
-  font-family: Lexend sans-serif;
+  font-family: Lexend;
   font-size: 16px;
   background-color: var(--bg-color);
   color: #ffffff;
@@ -381,7 +389,6 @@ body {
 
 .block-text__text {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Lexend;
   font-size: 32px;
   font-weight: 400;
   line-height: 32px;
@@ -390,7 +397,6 @@ body {
 
 .main__btn {
   color: hsl(0, 0%, 100%);
-  font-family: Lexend;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -431,7 +437,6 @@ body {
 
 .blog__title {
   color: hsl(0, 0%, 100%);
-  font-family: Lexend;
   font-size: 40px;
   font-weight: 400;
   line-height: 40px;
@@ -460,6 +465,18 @@ body {
   overflow-y: scroll;
 }
 
+.acticle__wrapper:-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.acticle__wrapper:-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
+}
+
 .article__block {
   border-radius: 196px;
   background: #1e1231;
@@ -476,16 +493,14 @@ body {
 
 .article__block *:first-child {
   color: rgb(255, 255, 255);
-  font-family: Lexend;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  font-size: calc(14.5px + 0.487804878vw);
 }
 
 .article__block *:last-child {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Futura PT;
+  font-family: FuturaPT;
   font-size: 14px;
   font-weight: 450;
   line-height: 16px;
@@ -496,6 +511,10 @@ body {
   --bg-color: #110a1d;
   --main-text: #ffffff;
   --main-blue-text: #478bf9;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 [class*=__container] {
@@ -512,7 +531,7 @@ body {
 }
 
 body {
-  font-family: Lexend sans-serif;
+  font-family: Lexend;
   font-size: 16px;
   background-color: var(--bg-color);
   color: #ffffff;
@@ -524,9 +543,13 @@ body {
   --main-blue-text: #478bf9;
 }
 
-.lexend-regular {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+@font-face {
+  font-family: "Lexend";
+  src: url(../../assets/fonts/Lexend-Regular.ttf);
+}
+@font-face {
+  font-family: "FuturaPT";
+  font-weight: 500;
   font-style: normal;
+  src: url(../../assets/fonts/FuturaPT-Book.ttf);
 }
