@@ -1,0 +1,21 @@
+@import "../components/ui";
+
+[class*="__container"] {
+	max-width: 1670px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+body {
+	font-family: $ff1 sans-serif;
+	font-size: 16px;
+	background-color: var(--bg-color);
+	color: #ffffff;
+}
