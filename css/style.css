@@ -518,6 +518,7 @@ body {
   background: #1e1231;
   padding: 16px 64px;
   cursor: pointer;
+  margin-right: 16px;
   color: #fff;
   transition: all 0.1s ease 0s;
 }
