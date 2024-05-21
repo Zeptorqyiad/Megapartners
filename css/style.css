@@ -79,6 +79,18 @@ h1, h2, h3, h4, h5, h6 {
   --main-blue-text: #478bf9;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -328,6 +340,18 @@ body {
   --main-blue-text: #478bf9;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -356,6 +380,18 @@ body {
   --bg-color: #110a1d;
   --main-text: #ffffff;
   --main-blue-text: #478bf9;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
 }
 
 .main {
@@ -513,6 +549,18 @@ body {
   --main-blue-text: #478bf9;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -541,6 +589,18 @@ body {
   --bg-color: #110a1d;
   --main-text: #ffffff;
   --main-blue-text: #478bf9;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+  background: #478bf9;
 }
 
 @font-face {
